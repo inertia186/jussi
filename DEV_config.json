@@ -40,7 +40,22 @@
     {
       "name": "appbase",
       "urls": [
-        ["appbase", "https://api.steemit.com"]
+        ["appbase", "https://api.steemit.com"],
+        ["appbase.condenser_api.get_followers", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_following", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_follow_count", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_content", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_content_replies", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_state", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_trending_tags", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_trending", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_hot", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_promoted", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_created", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_blog", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_feed", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_discussions_by_comments", "http://hive-001.from-ca.com"],
+        ["appbase.condenser_api.get_replies_by_last_update", "http://hive-001.from-ca.com"]
       ],
       "ttls": [
         ["appbase", -2],
