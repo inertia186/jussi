@@ -72,8 +72,8 @@
         ["appbase.condenser_api.broadcast_transaction_synchronous", 0]
       ],
       "retries": [
-        ["steemd", 3],
-        ["steemd.network_broadcast_api", 0]
+        ["appbase", 3],
+        ["appbase.network_broadcast_api", 0]
       ]
     }
   ]
