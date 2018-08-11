@@ -63,7 +63,7 @@
         ["appbase.database_api", 1]
       ],
       "timeouts": [
-        ["appbase", 3],
+        ["appbase", 6],
         ["appbase.chain_api.push_block", 0],
         ["appbase.chain_api.push_transaction", 0],
         ["appbase.network_broadcast_api", 0],
